@@ -6,6 +6,7 @@ const App = () => {
   const [previousChats, setPreviousChats] = useState([]);
   const [currentTitle, setCurrentTitle] = useState(null);
   const inputRef = useRef(null);
+  
 
   const createNewChat = () => {
     setMessage(null);
