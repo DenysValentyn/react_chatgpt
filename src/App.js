@@ -18,7 +18,6 @@ const App = () => {
     setMessage(null);
     setValue("");
   };
-
   const getMessages = async () => {
     const options = {
       method: "POST",
